@@ -1,0 +1,5 @@
+<% if @records.present? %>
+  <% @records.each do |record| %>
+    <p><%= record.title %></p>
+  <% end %>
+<% end %>
